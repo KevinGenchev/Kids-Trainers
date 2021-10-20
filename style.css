@@ -1,0 +1,163 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 12px;
+    margin: 0 1px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li a { 
+    text-decoration: none;
+
+}
+nav ul li a {
+    color: white;
+}
+.logo {
+    display: flex;
+    margin-right: 135px;
+}
+.logo-img img {
+    width: 95px;
+    margin-left: 70px;
+}
+.header {
+    background: #41BEAD;
+}
+.header-text {
+    background: #FFB402;
+    color: white;
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 60px;
+
+}
+.header-text p {
+    padding: 0 314px;
+}
+.img-text {
+    display: flex;
+    width: 110px;
+}
+.img-text img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 52%;
+    border: 5px solid #41BEAD;
+    height: 106px;
+}
+.text p {
+    width: 306px;
+}
+.text {
+    font-size: 13px;
+    margin-left: 20px;
+}
+.logo .header-text:first-child p {
+    color: gray;
+}
+.text h3 {
+    color: #41BEAD;
+}
+.people {
+    margin-top: 45px;
+    margin-left: 68px;
+}
+.all-people {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 386px;
+}
+.benefit img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 52%;
+    border: 5px solid #41BEAD;
+    height: 106px;
+}
+.benefit {
+    width: 110px;
+}
+.benefit h3 {
+    color: #41BEAD;
+    font-size: 12px;
+}
+.benefit p {
+    color: gray;
+    font-size: 11px;
+}
+.benefit-text {
+    text-align:center;
+}
+.images-teacher {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 846px;
+    margin-left: 202px;
+}
+.email {
+    background: #66B9F8;
+    height: 300px;
+}
+.email-text {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.email-text h2 {
+    padding-top: 60px;
+
+}
+.email-text p {
+    font-size: 13px;
+
+}
+.input-all {
+    text-align: center;
+    margin-top: 70px;
+}
+.input-all input {
+    
+    height: 28px;
+    border-radius: 7px;
+   background: #66B9F8;
+   border-style: solid;
+    border-color: white;
+    margin-right: 20px;
+
+
+}
+button {
+    border-radius: 27px;
+    width: 90px;
+    height: 35px;
+    background: #FF9100;
+    color: white;
+    margin-left: 55px;
+    border-style: none;
+
+}
+::placeholder {
+    color: white;
+}
+footer {
+background: black;
+color: white;
+display:flex
+}
