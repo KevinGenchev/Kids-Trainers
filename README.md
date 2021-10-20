@@ -1,2 +1,2 @@
 # Kids-Trainers
-HTML and CSS
+JavaScript ,HTML and CSS
